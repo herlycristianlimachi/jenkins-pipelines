@@ -36,6 +36,7 @@ pipeline {
                 sh "echo ${env.INSTAGRAM}"
                 sh "echo ${INSTAGRAM}"
                 sh "echo $INSTAGRAM"
+				sh "echo 'Eliminado'"
                 
             }
         }
