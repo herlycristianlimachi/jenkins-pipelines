@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    environment {
+        INSTAGRAM_HLIMACHI="@herlylimachinoriega"
+    }
+    stages {
+        stage('Saludo 1') {
+            steps {
+                echo 'Hola desde saludo 1'
+            }
+        }        
+    }
+}
